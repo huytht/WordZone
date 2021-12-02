@@ -217,7 +217,10 @@ const CrosswordWrapper = styled.div`
     margin-top: 0.5em;
     margin-left: 55px;
 }
-
+.guFLmb {
+    cursor: default;
+    background-color: yellow;
+}
 
 `;
 
