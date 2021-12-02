@@ -5,24 +5,155 @@ import styled from 'styled-components';
 const data = {
     across: {
         1: {
-            clue: 'one plus one ',
-            answer: 'TWO',
-            row: 0,
+            clue: 'Môn thể thao đồng đội phổ biến ở vùng Bắc Mỹ  ',
+            answer: 'LACROSSE',
+            row: 3,
+            col: 6,
+        },
+        2: {
+            clue: 'Môn thể thao trên tuyết  ',
+            answer: 'SKIING',
+            row: 4,
+            col: 13,
+        },
+        3: {
+            clue: 'Môn thể thao người ghi điểm khi cho bóng vào rổ   ',
+            answer: 'BASKETBALL',
+            row: 5,
             col: 0,
         },
-
-
+        4: {
+            clue: 'Môn thể thao dưới nước   ',
+            answer: 'SWIMMING',
+            row: 7,
+            col: 11,
+        },
+        5: {
+            clue: 'Môn thể trong nhà ',
+            answer: 'BOWLING',
+            row: 9,
+            col: 1,
+        },
+        6: {
+            clue: 'Môn thể thao dùng bóng và gậy có tên giống con Dế ',
+            answer: 'CRICKET',
+            row: 13,
+            col: 12,
+        },
+        7: {
+            clue: 'Môn thể thao giống quần vợt nhưng chơi trong nhà  ',
+            answer: 'TABLETENNIS',
+            row: 14,
+            col: 0,
+        },
+        8: {
+            clue: 'Môn thể thao có trái bóng hình bầu dục ',
+            answer: 'RUGBY',
+            row: 15,
+            col: 12,
+        },
+        9: {
+            clue: 'Môn thể thao "VUA"  ',
+            answer: 'FOOTBALL',
+            row: 17,
+            col: 7,
+        },
     },
     down: {
-        2: {
-            clue: 'three minus two  ',
-            answer: 'ONE',
+        1: {
+            clue: 'Môn võ sử dụng các thế vật bắt nguồn từ Nhật Bản',
+            answer: 'JUDO',
             row: 0,
-            col: 2,
+            col: 10,
+        },
+        2: {
+            clue: 'Môn thể thao người chơi dùng vợt đánh bóng ',
+            answer: 'TENNIS',
+            row: 0,
+            col: 15,
+        },
+        3: {
+            clue: 'Môn thể thao đi dọc theo các đường mòn quanh núi ',
+            answer: 'HIKING',
+            row: 0,
+            col: 17,
+        },
+        4: {
+            clue: 'Môn thể thao chơi trên các bãi biển  ',
+            answer: 'VOLLEYBALL',
+            row: 1,
+            col: 4,
+        },
+        5: {
+            clue: 'Môn thể thao gồm các động tác vật lộn biểu diễn  ',
+            answer: 'WRESTLING',
+            row: 1,
+            col: 13,
+        },
+        6: {
+            clue: 'Môn võ cổ truyền Nhật Bản ',
+            answer: 'KARATE',
+            row: 2,
+            col: 1,
+        },
+        7: {
+            clue: 'Môn thể thao sử dụng nắm đấm để thi đấu trên võ đài  ',
+            answer: 'BOXING',
+            row: 5,
+            col: 6,
+        },
+        8: {
+            clue: 'Môn thể thao bắt nguồn từ Canada và chơi trên sân băng  ',
+            answer: 'ICEHOCKEY',
+            row: 7,
+            col: 16,
+        },
+        9: {
+            clue: 'Môn thể thao liên quan đến các bài tập đòi hỏi thể lực và tinh linh hoạt ',
+            answer: 'GYMNASTICS',
+            row: 7,
+            col: 18,
+        },
+        10: {
+            clue: 'Môn thể thao có người ném và người cầm gậy đánh bóng  ',
+            answer: 'BASEBALL',
+            row: 9,
+            col: 1,
+        },
+        11: {
+            clue: 'Môn thể thao sử dụng vợt để đánh cầu ',
+            answer: 'BADMINTON',
+            row: 10,
+            col: 9,
+        },
+        12: {
+            clue: 'Tên gọi khác của môn thể thao "VUA" ',
+            answer: 'SOCCER',
+            row: 10,
+            col: 12,
+        },
+        13: {
+            clue: 'Môn thể thao chạy xe đạp  ',
+            answer: 'CYCLING',
+            row: 11,
+            col: 3,
+        },
+        14: {
+            clue: 'Môn thể thao sử dụng ván trượt ',
+            answer: 'SKATING',
+            row: 11,
+            col: 5,
+        },
+        15: {
+            clue: 'Môn thể thao dùng gậy đánh bóng vào lỗ trên sân cỏ ',
+            answer: 'GOLF',
+            row: 15,
+            col: 14,
         }
-
+        
     },
 };
+
 
 const Page = styled.div`
   padding: 2em;
@@ -180,8 +311,8 @@ function CrossWord() {
                 </button>
             </Commands>
 
-            <CrosswordWrapper style={{ marginLeft: '500px' }} >
-                <Crossword
+            <CrosswordWrapper style={{marginLeft:'300px'}} >
+                <Crossword 
                     data={data}
                     ref={crossword}
                     onCorrect={onCorrect}
