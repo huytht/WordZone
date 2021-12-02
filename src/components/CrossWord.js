@@ -219,7 +219,7 @@ const CrosswordWrapper = styled.div`
 }
 .guFLmb {
     cursor: default;
-    background-color: yellow;
+    background-color: rgba(86, 141, 229, 1);
 }
 
 `;
