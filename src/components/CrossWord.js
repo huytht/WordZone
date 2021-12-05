@@ -300,7 +300,7 @@ function CrossWord() {
 
     return (
         <Page>
-            <Header >PLAY CROSSWORD</Header>
+            <Header >PLAY WORD ZONE</Header>
 
             <Commands style={{ textAlign: 'center' }}>
                 <button onClick={() => focus()} style={{ padding: 9, margin: 3, backgroundColor: 'rgba(86, 141, 229, 1)', color: 'white', border: 'none' }}>

@@ -81,7 +81,7 @@ const NavbarCrossWord = () => {
             <Wrapper>
                 <Left>
                     <Logo>
-                        CROSSWORD
+                      WORD ZONE
                     </Logo>
 
                 </Left>
