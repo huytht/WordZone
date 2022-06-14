@@ -41,7 +41,7 @@ const Center = styled('div')(
     {
         flex: 1,
         display: 'flex',
-        marginLeft: "-950px"
+        marginLeft: "-1100px"
     }
 )
 
@@ -92,7 +92,7 @@ const NavbarCrossWord = () => {
                     
                     }} 
                     to="/">
-                        <Menu>Introduction</Menu>
+                        <Menu>Main Page</Menu>
                     </Link>
                     <Link 
                      style={{    

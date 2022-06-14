@@ -10,19 +10,19 @@ import Paper from '@mui/material/Paper';
 function createData(name, id) {
     return { name, id };
 }
-const rows = [
-    createData('Trần Huỷnh Tường Huy', 4501104096),
-    createData('Võ Anh Kha', 4501104103),
-    createData('Huỳnh Thiên Phú', 4501104177),
-    createData('Trần Việt Thành', 4501104215),
-];
+// const rows = [
+//     createData('Trần Huỷnh Tường Huy', 4501104096),
+//     createData('Võ Anh Kha', 4501104103),
+//     createData('Huỳnh Thiên Phú', 4501104177),
+//     createData('Trần Việt Thành', 4501104215),
+// ];
 
 
 const Introduction = () => {
     return (
         <div style={{ textAlign: 'center' }}>
-            <h1 style={{color:'rgba(86, 141, 229, 1)'}}>Nhóm O_HKP_4</h1>
-            <TableContainer component={Paper}>
+            <h1 style={{color:'rgba(86, 141, 229, 1)'}}>Trò chơi ô chữ</h1>
+            {/* <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
                     <TableHead>
                         <TableRow>
@@ -46,7 +46,7 @@ const Introduction = () => {
                         ))}
                     </TableBody>
                 </Table>
-            </TableContainer>
+            </TableContainer> */}
         </div>
 
     )
